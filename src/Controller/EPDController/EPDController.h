@@ -1,7 +1,6 @@
 #pragma once
 #include <Arduino.h>
 #include <M5EPD.h>
-#include <Time.h>
 #include <TimeLib.h>
 #include <WiFi.h>
 

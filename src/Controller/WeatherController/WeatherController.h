@@ -4,7 +4,6 @@
 #include <HTTPClient.h>
 #include <M5EPD.h>
 #include <MoonRise.h>
-#include <Time.h>
 #include <WiFiClient.h>
 
 #include "Config.h"
