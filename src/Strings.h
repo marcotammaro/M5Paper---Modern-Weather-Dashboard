@@ -1,5 +1,6 @@
 #pragma once
 #include <Arduino.h>
+#include <WString.h>
 
 // Weather View Related
 const String strings_weather_title = "Weather";

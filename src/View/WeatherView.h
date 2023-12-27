@@ -1,6 +1,7 @@
 #pragma once
 
 #include <Arduino.h>
+#include <WString.h>
 
 #include "Controller/WeatherController/WeatherController.h"
 #include "Model/WeatherModel.h"

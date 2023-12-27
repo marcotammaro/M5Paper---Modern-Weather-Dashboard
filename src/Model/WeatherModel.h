@@ -1,6 +1,7 @@
 #pragma once
 
 #include <Arduino.h>
+#include <WString.h>
 
 #include "Enum/WeatherIcon.h"
 #include "Globals.h"
