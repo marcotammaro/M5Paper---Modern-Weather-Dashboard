@@ -22,7 +22,7 @@ In order to run the project you will need to:
     - `WIFI_SSID` and `WIFI_PW` are the ssid name and the password of you own home network
     - `LATITUDE` and `LONGITUDE` are the coordinates to the city where you want to have weather informations, you can easily get them from [Google Maps](https://www.google.it/maps/preview)
     - `LOCALIZATION` is a parameter sent to OpenWeatherMap API to have some information localized. In order to localize the entire dashboard you can edit the [Strings.h](https://github.com/marcotammaro/M5Paper---Modern-Weather-Dashboard/blob/main/src/Strings.h) file with your own language
-    - `UNITS` the unit used to retrive the data, it could be "metric" (for temperature in Celsius), "imperial" (for temperature in Fahrenheit) or "standard" (for temperature in Kelvin)
+    - `UNITS` the unit used to retrive the data and used to specify the unit measure of temperature, it could be "metric" (Celsius), "imperial" (Fahrenheit) or "standard" (Kelvin)
     - `OPENWEATHER_API` is the API Key that you should create on [OpenWeatherMap website](https://openweathermap.org/api)
 
 ---
