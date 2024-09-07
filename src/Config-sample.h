@@ -1,6 +1,9 @@
 #pragma once
 
-#define REFRESH_INTERVAL 60 * 60  // in seconds
+// The time threshold (in seconds) after which the dashboard will refresh data.
+// NOTICE: Refreshing more than 1,000 times will result in exceeding the free
+// subscription limits.
+#define REFRESH_INTERVAL 60 * 60
 
 // WiFI
 #define WIFI_SSID "YOUR WIFI SSID"

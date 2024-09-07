@@ -55,7 +55,7 @@ bool WeatherController::postToWeatherAPI(DynamicJsonDocument &doc) {
     HTTPClient http;
     String uri;
 
-    uri += "/data/2.5/onecall";
+    uri += "/data/3.0/onecall";
     uri += "?lat=" + String((float)LATITUDE, 5);
     uri += "&lon=" + String((float)LONGITUDE, 5);
     uri += "&units=" + (String)UNITS;

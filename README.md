@@ -13,6 +13,14 @@ Here is an image of the dashboard look:
 
 ---
 
+## Notice
+
+Please note that the dashboard requires access to the OneCall API 3.0 service, which is subscription-based and requires activation. However, there are currently 1,000 free API calls available per day. Since the dashboard refreshes data every hour, it will make a total of 24 calls per day, which is well below the free limit.
+
+I assume no responsibility for any code malfunctions that may cause the free limits to be exceeded. The dashboard is provided "as is," and all responsibility lies with the user who utilizes it.
+
+---
+
 ## Requirements
 
 In order to run the project you will need to:
@@ -23,7 +31,7 @@ In order to run the project you will need to:
     - `LATITUDE` and `LONGITUDE` are the coordinates to the city where you want to have weather informations, you can easily get them from [Google Maps](https://www.google.it/maps/preview)
     - `LOCALIZATION` is a parameter sent to OpenWeatherMap API to have some information localized. In order to localize the entire dashboard you can edit the [Strings.h](https://github.com/marcotammaro/M5Paper---Modern-Weather-Dashboard/blob/main/src/Strings.h) file with your own language
     - `UNITS` the unit used to retrive the data and used to specify the unit measure of temperature, it could be "metric" (Celsius), "imperial" (Fahrenheit) or "standard" (Kelvin)
-    - `OPENWEATHER_API` is the API Key that you should create on [OpenWeatherMap website](https://openweathermap.org/api)
+    - `OPENWEATHER_API` is the API Key that you should create on [OpenWeatherMap website](https://openweathermap.org/api) to OneCall API 3.0 service (subscription required, 1000 free calls per day). 
 
 ---
 
